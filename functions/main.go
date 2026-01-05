@@ -30,8 +30,8 @@ func add(a, b int) int {
 	return a + b
 }
 func greet() {
-	names := []string{"Joash", "Mary"}
-	fmt.Scan(names)
+	// names := []string{"Joash", "Mary"} Insignificant code
+	// fmt.Scan(names)
 	fmt.Println("Hello", os.Args[1])
 }
 func main() {
